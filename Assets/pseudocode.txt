@@ -1,0 +1,24 @@
+Unit 19 PWA Homework: Text Editor
+
+1. open application see client server folder structure
+2. npm run start - starts backend and serve client
+3. JS gets bundled using webpacks
+4.webpack plugin => html generated, service worker and manifest file
+5.txt editor works without errors when next-gen JS 
+6. open => IndexedDB creates database storage
+7. content saved w/ IndexedDB
+8. reopen after closing txt editor retrieves IndexedDB
+9. click Install => d/l web app as icon on desktop
+10. load web app registered service worker using workbox
+11. register service worker static assets pre cached upon loading along with subsequent pages and static assets
+12. deploy Heroku THEN proper build scripts for a webpack application
+
+Grading Criteria
+ IndexedDB to create an object store and includes both GET and PUT methods:
+  - application works without an internet connection
+  - Automatically saves content inside the text editor when the DOM window is unfocused
+  - Bundled with webpack
+  - Create a service worker with workbox that Caches static assets
+  - The application should use babel in order to use async / await
+  - Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
+  - Can be installed as a Progressive Web Application
