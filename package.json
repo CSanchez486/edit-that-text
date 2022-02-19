@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "edit-that-text",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,8 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "express": "^4.17.3",
+    "if-env": "^1.0.4",
+    "mongoose": "^6.2.2"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
