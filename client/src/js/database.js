@@ -16,6 +16,6 @@ const initdb = async () =>
 export const putDb = async (content) => console.log('Post');
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async (content) => console.log('Get');
+export const getDb = async (content) => console.error('getDb not implemented');
 
 initdb();

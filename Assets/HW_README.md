@@ -42,7 +42,7 @@ THEN I find that the content in the text editor has been retrieved from our Inde
 THEN I download my web application as an icon on my desktop
 10. WHEN I load my web application
 THEN I should have a registered service worker using workbox
-11. WHEN I register a service worker
+11.WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 12. WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
