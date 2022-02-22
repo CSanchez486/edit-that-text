@@ -74,7 +74,7 @@ This homework is graded based on the following criteria:
 
 * Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+  * Uses IndexedDB to create an object store and includes both GET and PUT methods - DONE
 
   * The application works without an internet connection
 
