@@ -21,8 +21,23 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'J.A.T.E'
-      })
-      
+      }),
+
+      // Inject service worker to manifest
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
+
+      // Creates manifest.json file
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'J.A.T.E',
+        description: 'Just Another Text Editor',
+        start_url: '/',
+        publicPath: '/',
+      }),
     ],
 
     module: {
